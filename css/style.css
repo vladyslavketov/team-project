@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -16,4 +20,19 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+/* footer */
+.footer-logo {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  color: #939393;
+}
+
+.footer-nav {
+  font-size: 24px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #8F95A5;
 }
