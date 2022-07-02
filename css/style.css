@@ -1,5 +1,10 @@
+*html {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -16,6 +21,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 ul {
   margin: 0;
   padding: 0;
@@ -43,6 +49,149 @@ ul {
     }
     
 
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.container {
+  width: 1378px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* SKILLS SECTION OLEH */
+
+.skills__section {
+  padding-top: 180px;
+}
+
+.order-one {
+  order: 2;
+}
+
+.skills__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.item__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+
+  margin-top: 24px;
+  margin-bottom: 20px;
+
+  color: #263238;
+}
+
+.skills__text {
+  display: block;
+  width: 359px;
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin-bottom: 30px;
+  color: #8f95a5;
+}
+
+.skills__item .small {
+  width: 324px;
+}
+
+.skills__btn_text {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+
+  color: #ffffff;
+}
+
+.skills__btn {
+  padding: 15px 52px;
+
+  background: #263238;
+  border-radius: 10px;
+}
+
+.skills__item {
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 32px 18px;
+}
+
+.center__one {
+  max-height: 579px;
+  padding-bottom: 0;
+}
+.skills__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.skills__item:nth-child(3) {
+  margin-right: 0px;
+}
+
+.skills__item:first-child {
+  height: 947px;
+}
+
+.first__big {
+  margin-bottom: 154px;
+}
+
+.title__notop {
+  margin-top: 0px;
+}
+
+.skills__item:nth-child(3n + 1) {
+  margin-bottom: 0px;
+}
+
+.skills__item:nth-child(4) {
+  display: flex;
+  width: 882px;
+  justify-content: space-between;
+}
+
+.skills__last__div {
+  width: 324px;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /* footer */
 .footer-logo {
   font-weight: 400;
@@ -55,5 +204,5 @@ ul {
   font-size: 24px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  color: #8F95A5;
+  color: #8f95a5;
 }

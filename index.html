@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-  <!-- Іра -->
-  <header>
-    <nav>
+  <body>
+    <!-- Іра -->
+    <header>
+      <nav>
         <a href="">Britlex</a>
 
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Contacts</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Skills</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Contacts</a></li>
         </ul>
-        <button type="button" >Let’s Talk</button>
-    </nav>
-</header>
-  <main>
-        <section>
+        <button type="button">Let’s Talk</button>
+      </nav>
+    </header>
+    <main>
+      <section>
         <h1>Learn Any Foreign Language</h1>
         <p>
           With our teachers who write a program for each student, you will be
@@ -40,161 +46,177 @@
         <button type="button">Get started</button>
         <img src="./images/learning-languages.svg" alt="girl" width="654" />
       </section>
-    <!-- skills / Олег -->
-    <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>
+      <!-- skills / Олег -->
+      <section class="skills__section section">
+        <div class="container">
+          <h2 class="skills__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <img
+                src="./images/Shared goals-bro 1.svg"
+                alt="two dudes"
+                width="390"
+                height="390"
+              />
+              <h3 class="item__title">Speaking</h3>
+              <p class="skills__text">
+                Improve your English skills and confidence. Live classes and
+                interactive lessons online. 20% extra free for a limited time
+                only
+              </p>
+              <p class="skills__text">
+                Learn English online and improve your skills through our
+                high-quality courses and resources – all designed for adult
+                language learners.
+              </p>
+              <details class="skills__btn_text link first__big">
+                <summary class="skills__btn link">Learn more</summary>
+                Lorem ipsum dolor sit amet.
+              </details>
+            </li>
+            <li class="skills__item center__one">
+              <img
+                src="./images/Typewriter-bro 1.svg"
+                alt="Typewriter"
+                width="390"
+                height="264"
+              />
+              <h3 class="item__title">Writing</h3>
+              <p class="skills__text">
+                One of the most important and extensive areas of natural
+                science, the science that studies substances, also their
+                composition
+              </p>
+              <details class="skills__btn_text link">
+                <summary class="skills__btn">Learn more</summary>
+                Lorem ipsum dolor sit amet.
+              </details>
+            </li>
+            <li class="skills__item center__one margin__rnone">
+              <img
+                src="./images/House bookshelves-bro 1.svg"
+                alt="House_bookshelves"
+                width="390"
+                height="264"
+              />
+              <h3 class="item__title">Reading</h3>
+              <p class="skills__text">
+                Perception and response actions of the user resulting from the
+                use and/or upcoming use of the product, system or service
+              </p>
+              <details class="skills__btn_text link">
+                <summary class="skills__btn">Learn more</summary>
+                Lorem ipsum dolor sit amet.
+              </details>
+            </li>
+            <li class="skills__item absolute">
+              <img
+                class="order-one"
+                src="./images/Podcast audience-bro 1.svg"
+                alt="Podcast_audience"
+                width="408"
+                height="274"
+              />
+              <div>
+                <h3 class="item__title title__notop">Listening</h3>
+                <p class="skills__text small">
+                  Here you can find activities to practise your listening
+                  skills. Listening will help you to improve your understanding
+                </p>
+                <details class="skills__btn_text link">
+                  <summary class="skills__btn">Learn more</summary>
+                  Lorem ipsum dolor sit amet.
+                </details>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- about / Саша -->
+      <section class="section">
+        <h2>About Us</h2>
+        <p>
+          The model offers a framework for discussing problems related to the
+          user's experience, as well as possible ways and means of solving them.
+          Application development begins at the top level (strategy), where the
+          future software product is described quite abstractly from the point
+          of view of the expectations of both users and the customer.
+        </p>
+        <ul>
+          <li>
+            <span>800</span>
+            <span>Pupils</span>
+          </li>
+          <li>
+            <span>18</span>
+            <span>Teachers</span>
+          </li>
+          <li>
+            <span>6</span>
+            <span>Foreign languages</span>
+          </li>
+        </ul>
+        <img src="./images/Business competition-bro 1.svg" alt="" />
+      </section>
+      <!-- pricing / Макс-->
+      <section>
+        <h2>Pricing</h2>
+        <ul>
+          <li>
+            <img src="./images/online.png" alt="teacher" />
+            <h3>Self-study online course</h3>
+            <p>
+              Start learning English online in live classes with qualified EC
+              teachers and students from all over the world.
+            </p>
+            <p>£5.99<span>per month</span></p>
+          </li>
+          <li>
+            <img src="./images/lesson.png" alt="lesson" />
+            <h3>Live online classes</h3>
+            <p>
+              Interactive group classes with expert teachers. Free 7-day trial
+            </p>
+            <p>£12.99<span>per month</span></p>
+          </li>
+          <li>
+            <img src="./images/Group 43.svg" alt="group activities" />
+            <h3>Personal Tuition</h3>
+            <p>
+              Online one-to-one English tutoring – enjoy our first session for
+              only $1
+            </p>
+            <p>£12.99<span>per month</span></p>
+          </li>
+        </ul>
+      </section>
+      <!-- contacts / Сергій -->
+      <section>
+        <h2 class="contacts-title">Contact Us</h2>
         <img
-          src="./images/Shared goals-bro 1.svg"
-          alt="two dudes"
-          width="390"
-          height="390"
+          src="./images/contact.png"
+          alt="Boy playing"
+          width="425"
+          height="430"
         />
-        <h3>Speaking</h3>
         <p>
-          Improve your English skills and confidence. Live classes and
-          interactive lessons online. 20% extra free for a limited time only
+          Discover your current English level by taking our free online English
+          test. Sign up to our newsletter for learning tips and free resources
         </p>
-        <p>
-          Learn English online and improve your skills through our
-          high-quality courses and resources – all designed for adult
-          language learners.
-        </p>
-        <details>
-          <summary>Learn more</summary>
-          Lorem ipsum dolor sit amet.
-        </details>
-      </li>
-      <li>
-        <img
-          src="./images/Typewriter-bro 1.svg"
-          alt="Typewriter"
-          width="390"
-          height="264"
-        />
-        <h3>Writing</h3>
-        <p>
-          One of the most important and extensive areas of natural science,
-          the science that studies substances, also their composition
-        </p>
-        <details>
-          <summary>Learn more</summary>
-          Lorem ipsum dolor sit amet.
-        </details>
-      </li>
-      <li>
-        <img
-          src="./images/House bookshelves-bro 1.svg"
-          alt="House_bookshelves"
-          width="390"
-          height="264"
-        />
-        <h3>Reading</h3>
-        <p>
-          Perception and response actions of the user resulting from the use
-          and/or upcoming use of the product, system or service
-        </p>
-        <details>
-          <summary>Learn more</summary>
-          Lorem ipsum dolor sit amet.
-        </details>
-      </li>
-      <li>
-        <img
-          src="./images/Podcast audience-bro 1.svg"
-          alt="Podcast_audience"
-          width="408"
-          height="274"
-        />
-        <h3>Listening</h3>
-        <p>
-          Here you can find activities to practise your listening skills.
-          Listening will help you to improve your understanding
-        </p>
-        <details>
-          <summary>Learn more</summary>
-          Lorem ipsum dolor sit amet.
-        </details>
-      </li>
-    </ul>
-  
-  
-  </section>
-    <!-- about / Саша -->
-    <section>
-      <h2>About Us</h2>
-      <p>The model offers a framework for discussing problems related to the user's experience, as well as
-        possible ways and means of solving them. Application development begins at the top level (strategy),
-        where the future software product is described quite abstractly from the point of view of the
-        expectations of both users and the customer.</p>
+        <form action="">
+          <input type="text" />
+          <button class="contacts-btn button" type="button">Subscribe</button>
+        </form>
+      </section>
+    </main>
+    <!-- Влад -->
+    <footer>
+      <a class="footer-logo" href="">Britlex</a>
       <ul>
-        <li>
-          <span>800</span>
-          <span>Pupils</span>
-        </li>
-        <li>
-          <span>18</span>
-          <span>Teachers</span>
-        </li>
-        <li>
-          <span>6</span>
-          <span>Foreign languages</span>
-        </li>
+        <li><a class="footer-nav" href="">Terms and Conditions</a></li>
+        <li><a class="footer-nav" href="">Privacy Policy</a></li>
+        <li><a class="footer-nav" href="">Cookie Policy</a></li>
       </ul>
-      <img src="./images/Business competition-bro 1.svg" alt="">
-    </section>
-    <!-- pricing / Макс-->
-    <section>
-      <h2>Pricing</h2>
-      <ul>
-        <li>
-          <img src="./images/online.png" alt="teacher">
-          <h3>Self-study online course</h3>
-          <p>Start learning English online in live classes
-            with qualified EC teachers and students
-            from all over the world.</p>
-          <p>£5.99<span>per month</span></p>
-        </li>
-        <li>
-          <img src="./images/lesson.png" alt="lesson">
-          <h3>Live online classes</h3>
-          <p>Interactive group classes with expert
-            teachers. Free 7-day trial</p>
-          <p>£12.99<span>per month</span></p>
-        </li>
-        <li>
-          <img src="./images/Group 43.svg" alt="group activities">
-          <h3>Personal Tuition</h3>
-          <p>Online one-to-one English tutoring – enjoy
-            our first session for only $1</p>
-          <p>£12.99<span>per month</span></p>
-        </li>
-      </ul>
-
-    </section>
-    <!-- contacts / Сергій -->
-    	<h2 class="contacts-title">Contact Us</h2>
-				<img src="./images/contact.png" alt="Boy playing" width="425" height="430" />
-				<p>
-					Discover your current English level by taking our free online English test. Sign up to our newsletter for
-					learning tips and free resources
-				</p>
-				<form action="">
-					<input type="text" />
-					<button class="contacts-btn button" type="button">Subscribe</button>
-				</form>
-			</section>
-  </main>
-  <!-- Влад -->
-  <footer>
-    <a class="footer-logo" href="">Britlex</a>
-    <ul>
-      <li><a class="footer-nav" href="">Terms and Conditions</a></li>
-      <li><a class="footer-nav" href="">Privacy Policy</a></li>
-      <li><a class="footer-nav" href="">Cookie Policy</a></li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
